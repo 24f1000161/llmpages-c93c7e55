@@ -1,0 +1,27 @@
+:root {
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #212529;
+  --muted: #6c757d;
+}
+html, body {
+  height: 100%;
+}
+body {
+  background: linear-gradient(135deg, #f3f7fb 0%, #eef3f7 60%, #f8f9fa 100%);
+  color: var(--text);
+}
+.card {
+  box-shadow: 0 4px 14px rgba(0,0,0,.05);
+}
+.file-name {
+  font-family: ui-sans-serif, system-ui;
+  font-weight: 600;
+}
+.btn-warning {
+  --bs-btn-bg: #f2c94c;
+}
+@media (max-width: 576px) {
+  .lead { font-size: 0.95rem; }
+}
+</style>
